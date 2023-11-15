@@ -13,8 +13,15 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        print(reverse(text: "stressed"))
+        
         print(message)
         // Do any additional setup after loading the view.
+    }
+    
+    func reverse(text: String) -> String {
+        return String(text.reversed())
     }
 
 
